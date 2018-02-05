@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="29" height="27" viewBox="0 0 29 27">
+  <metadata><?xpacket begin="﻿" id="W5M0MpCehiHzreSzNTczkc9d"?>
+<x:xmpmeta xmlns:x="adobe:ns:meta/" x:xmptk="Adobe XMP Core 5.6-c142 79.160924, 2017/07/13-01:06:39        ">
+   <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <rdf:Description rdf:about=""/>
+   </rdf:RDF>
+</x:xmpmeta>
+
+<?xpacket end="w"?></metadata>
+<defs>
+    <style>
+      .cls-1, .cls-11, .cls-2, .cls-8 {
+        fill: none;
+      }
+
+      .cls-1, .cls-2 {
+        stroke: #566172;
+        stroke-width: 3px;
+      }
+
+      .cls-1, .cls-10, .cls-11, .cls-2 {
+        fill-rule: evenodd;
+      }
+
+      .cls-2 {
+        stroke-linecap: round;
+      }
+
+      .cls-3 {
+        font-size: 20.83px;
+        font-weight: 800;
+      }
+
+      .cls-3, .cls-5, .cls-6, .cls-7 {
+        fill: #566172;
+      }
+
+      .cls-3, .cls-9 {
+        text-anchor: middle;
+      }
+
+      .cls-3, .cls-5, .cls-6, .cls-9 {
+        font-family: NanumSquare;
+      }
+
+      .cls-4 {
+        fill: #f2f3f4;
+      }
+
+      .cls-5 {
+        font-size: 24px;
+        font-weight: 300;
+      }
+
+      .cls-6, .cls-9 {
+        font-size: 15.623px;
+      }
+
+      .cls-6 {
+        font-weight: 700;
+      }
+
+      .cls-8 {
+        stroke: #999;
+        stroke-width: 2px;
+        opacity: 0.5;
+      }
+
+      .cls-9 {
+        fill: #333;
+      }
+
+      .cls-10 {
+        fill: #7aa1ee;
+      }
+
+      .cls-11 {
+        stroke: #fff;
+        stroke-width: 5px;
+      }
+    </style>
+  </defs>
+    <g id="top">
+      <path class="cls-1" d="M1955,1423l-13,13,13,12" transform="translate(-1940 -1422)"/>
+      <path class="cls-2" d="M1944,1435h23" transform="translate(-1940 -1422)"/>
+    </g>
+</svg>

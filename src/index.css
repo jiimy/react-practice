@@ -1,0 +1,261 @@
+* {
+    text-decoration: none;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    font-family: 'NanumSquare';
+}
+
+#list {
+    width: 676px;
+    margin: 0 auto;
+}
+dd
+.searchWrap {
+    width: 100%;
+    height: 120px;
+    background: #566172;
+}
+
+.searchWrap a {
+    text-indent: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+    width: 4.881656804733728%;
+    height: 36px;
+    /* background: url(../img/prev.svg); */
+    background-size: 25px 25px;
+    background-repeat: no-repeat;
+    float: left;
+    margin: 42px 0 0 7.100591715976331%;
+}
+
+.searchWrap input {
+    border: 0;
+    border-bottom: 2px solid white;
+    background: #566172;
+    width: 73%;
+    margin: 30px 0 0 7.396449704142012%;
+    line-height: 45px;
+    text-indent: 3px;
+    -webkit-border-radius: 0;
+    -webkit-appearance: none;
+}
+
+.searchWrap button {
+    text-indent: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+    /* background: url(../img/search.svg); */
+    background-size: 30px 35px;
+    background-repeat: no-repeat;
+    border: 0px;
+    width: 4.142011834319527%;
+    height: 28px;
+    position: relative;
+    right: 31px;
+    top: 2px;
+    cursor: pointer;
+}
+
+::placeholder {
+    color: white;
+    font-size: 1.5em;
+    text-indent: 3px;
+    font-family: 'NanumSquare';
+    opacity: 0.8;
+}
+
+header {
+    width: 100%;
+    height: 120px;
+    padding-top: 30px;
+}
+
+nav {
+    width: 85.8%;
+    height: 120px;
+    margin: 0 auto;
+}
+
+nav .lnb {
+    margin-top: 30px;
+    width: 100%;
+}
+
+nav li {
+    display: inline-block;
+    border: 1.5px solid #ccc;
+    border-radius: 3px;
+    width: 21.20689655172414%;
+    margin-left: 1.379310344827586%;
+    text-align: center;
+    padding: 2px 0.0028152915375152% 2px 0.0028152915375152%;
+}
+
+.gnb a {
+    font-size: 2em;
+}
+
+.gnb a:first-child {
+    color: #566172;
+    font-weight: bold;
+}
+
+.gnb a:last-child {
+    color: #566172;
+    opacity: 0.6;
+}
+
+.gnb a:nth-child(2)::before {
+    content: '  |  ';
+}
+
+a::before {
+    white-space: pre;
+    color: black;
+}
+
+.lnb li:first-child {
+    background: #7aa1ee;
+    border: 1.5px solid #7aa1ee;
+    margin-left: 0;
+}
+
+.lnb li:first-child a {
+    color: white;
+    font-weight: bold;
+}
+
+.lnb li a {
+    font-size: 1.5em;
+    line-height: 39px;
+    color: #333333;
+}
+
+section {
+    width: 100%;
+    margin-top: 30px;
+}
+
+section dl {
+    width: 81.80473372781065%;
+    padding: 1px 25px 13px 0;
+    margin: 15px auto;
+    position: relative;
+    background: #f2f3f4;
+}
+
+section dl:nth-child(1) {
+    padding-bottom: 17px;
+    margin: 0 auto;
+}
+
+section dl:nth-child(1) img {
+    top: 45px;
+}
+
+section dl:nth-child(1) dd {
+    padding: 5px 35px 0 20px;
+    margin-left: 0;
+}
+
+section dl:nth-child(1) dt {
+    margin: 20px 15px 0 20px;
+}
+
+section dd {
+    margin: 15px 0 0 22.06148282097649%;
+    font-size: 1.5em;
+    color: #333333;
+}
+
+section dt {
+    color: #7aa1ee;
+    float: left;
+    margin: 15px 0 0 3.616636528028933%;
+    font-size: 1.5em;
+}
+
+section .order {
+    width: 31.06508875739645%;
+    margin: 15px auto;
+    text-align: center;
+    line-height: 55px;
+    position: relative;
+}
+
+dl img {
+    position: absolute;
+    right: 15px;
+    top: 25px;
+}
+
+.answerWrap {
+    width: 78.69822485207101%;
+    margin: 0 auto;
+    background: #f8f9f9;
+    padding: 20px 3.698224852071006% 35px 3.106508875739645%;
+}
+
+.answerWrap p {
+    font-family: 'NanumSquare';
+    font-size: 1.5em;
+}
+
+.order span {
+    font-size: 1.5em;
+    color: #333333;
+}
+
+.order span:nth-child(3):before {
+    content: ' / ';
+}
+
+.order span:nth-child(2) {
+    color: #7aa1ee;
+    margin-left: 15px;
+}
+
+.order a:first-child {
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    display: inline-block;
+    width: 30px;
+    height: 40px;
+    /* background: url(../img/prevas.svg); */
+    background-size: 19px 35px;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 10px;
+    left: 45px;
+}
+
+.order a:last-child {
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    display: inline-block;
+    width: 30px;
+    height: 40px;
+    /* background: url(../img/next.svg); */
+    background-size: 19px 35px;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 10px;
+    right: 18px;
+}
+
+:before {
+    white-space: pre;
+}
+
+@media all and (max-width:1000px) {
+    #list {
+        width: 100%;
+    }
+}
+
+
+/*# sourceMappingURL=index.css.map */

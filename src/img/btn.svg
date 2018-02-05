@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="32" height="28" viewBox="0 0 32 28">
+
+<defs>
+    <style>
+
+      #BT_문의하기 .cls-1 {
+        fill: #7aa1ee;
+      }
+
+      #BT_문의하기 .cls-2 {
+        fill: #566172;
+      }
+
+      #BT_문의하기 .cls-3 {
+        font-size: 19.528px;
+        fill: #fff;
+        text-anchor: middle;
+        font-family: NanumSquare;
+        font-weight: 700;
+      }
+
+      #BT_문의하기 .cls-4 {
+        fill: none;
+        stroke: #fff;
+        stroke-width: 2px;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <g id="문의하기">
+    <g id="BT_문의하기">
+      <rect id="Rounded_Rectangle_1_copy" data-name="Rounded Rectangle 1 copy" class="cls-1" x="-34" y="-26" width="240" height="70" rx="10" ry="10"/>
+      <rect id="Rounded_Rectangle_1_copy_2" data-name="Rounded Rectangle 1 copy 2" class="cls-2" x="-283" y="-26" width="240" height="70" rx="10" ry="10"/>
+      <path id="Rounded_Rectangle_7" data-name="Rounded Rectangle 7" class="cls-4" d="M2288.83,2298.51l-11.7,20.26-8.66-5,11.7-20.26Z" transform="translate(-2257 -2294)"/>
+      <path class="cls-4" d="M2277.13,2318.77l-7.63,3.22-1.03-8.22" transform="translate(-2257 -2294)"/>
+      <path class="cls-4" d="M2276.72,2299.65l7.67,4.42" transform="translate(-2257 -2294)"/>
+      <path class="cls-4" d="M2257,2320h12" transform="translate(-2257 -2294)"/>
+    </g>
+  </g>
+</svg>

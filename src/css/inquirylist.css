@@ -1,0 +1,234 @@
+/*# sourceMappingURL=inquirylist.css.map */
+/*# sourceMappingURL=inquirylist.css.map */
+* {
+  text-decoration: none;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  font-family: 'NanumSquare';
+}
+#list {
+  width: 676px;
+  margin: 0 auto;
+}
+.searchWrap {
+  width: 100%;
+  height: 120px;
+  background: #566172;
+}
+.searchWrap a {
+  text-indent: 100%;
+  overflow: hidden;
+  white-space: nowrap;
+  width: 33px;
+  height: 36px;
+  background: url(../img/prev.svg);
+  background-size: 25px 25px;
+  background-repeat: no-repeat;
+  float: left;
+  margin: 42px 0 0 7.100591715976331%;
+}
+.searchWrap input {
+  border: 0;
+  border-bottom: 2px solid white;
+  background: #566172;
+  width: 73%;
+  margin: 30px 0 0 7.396449704142012%;
+  line-height: 45px;
+  text-indent: 3px;
+  -webkit-border-radius:0;
+  -webkit-appearance:none;
+}
+.searchWrap button {
+  text-indent: 100%;
+  overflow: hidden;
+  white-space: nowrap;
+  background: url(../img/search.svg);
+  background-size: 30px 35px;
+  background-repeat: no-repeat;
+  border: 0px;
+  width: 28px;
+  height: 28px;
+  position: relative;
+  right: 31px;
+  top: 2px;
+}
+.searchWrap ::placeholder {
+  color: white;
+  font-size: 1.5em;;
+  font-family: 'NanumSquare';
+  opacity: 0.8;
+}
+header {
+  width: 100%;
+  height: 120px;
+  padding-top: 30px;
+}
+nav {
+  width: 85.8%;
+  margin: 0 auto;
+}
+.gnb a {
+  font-family: 'NanumSquare';
+  font-size: 2em;
+}
+.gnb a:first-child {
+  color: #566172;
+}
+.gnb a:last-child {
+  color: #566172;
+  font-weight: bold;
+}
+.inquiry {
+  width:100%;
+  background: #7aa1ee;
+  border-radius: 10px;
+  margin-top: 30px;
+}
+.inquiry button {
+  font-family: 'NanumSquare';
+  background: url(../img/btn.svg);
+  background-repeat: no-repeat;
+  background-position: 34.96903748231505% 22px;
+  border: 0;
+  color: white;
+  font-size: 1.875em;
+  font-weight: bold;
+  width: 100%;
+  padding-left: 5%;
+  height: 71px;
+  display:block;
+  cursor: pointer;
+}
+section {
+  width:100%;
+  margin-top: 45px;
+  position: relative;
+}
+article {
+  width: 82.84023668639053%;
+  padding: 10px 0 10px 2.958579881656805%;
+  margin: 15px auto;
+  background: #f2f3f4;
+  position: relative;
+  line-height: 37px;
+}
+article span{
+  color:#777777;
+  font-size: 1.5em;
+  white-space: pre;
+}
+article span:nth-child(1):after {
+  content: '  | ';
+}
+article p {
+  font-size: 1.75em;
+  color: #333333;
+}
+article img {
+  position: absolute;
+  top: 45px;
+  right: 2.414304269938532%;
+}
+.passwordWrap {
+  width: 70.34023668639053%;
+  margin: 0 auto;
+  border-radius: 10px;
+  padding: 41px 7.692307692307692% 75px;
+  background: rgba(86, 97, 114, 0.7);
+  position: absolute;
+  top: 108px;
+  left:7.248520710059172%;
+}
+.passwordWrap input {
+  border: 0;
+  width: 71.50368033648791%;
+  line-height: 63px;
+  text-indent: 23px;
+  border-radius: 3px;
+  margin-top: 30px;
+}
+.passwordWrap button {
+  border: 0;
+  width: 54.609px;
+  color: white;
+  background: #566172;
+  border-radius: 3px;
+  line-height: 63px;
+  margin-left: 1.554961214824556%;
+  font-size: 1.875em;
+  cursor: pointer;
+  font-weight: bold;
+  font-family: 'NanumSquare';
+}
+.passwordWrap a {
+  background: url(../img/close.svg);
+  background-repeat: no-repeat;
+  text-indent: 100%;
+  overflow: hidden;
+  white-space: nowrap;
+  display: inline-block;
+  width: 26px;
+  height: 26px;
+  position: absolute;
+  top: 20px;
+  right: 21px;
+}
+.passwordWrap ::placeholder {
+  font-family: 'NanumSquare';
+  font-size: 1.5em;
+  color: #757e8c;
+}
+.order {
+  width: 31.06508875739645%;
+  margin: 15px auto;
+  text-align: center;
+  line-height: 55px;
+  position: relative;
+}
+.order span {
+  font-size: 1.5em;
+  color: #333333;
+}
+.order span:nth-child(3):before {
+  content: ' / ';
+}
+.order span:nth-child(2) {
+  color: #7aa1ee;
+  margin-left: 7.544778258966969%;
+}
+.order a:first-child {
+  text-indent: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  display: inline-block;
+  width: 30px;
+  height: 40px;
+  background: url(../img/prevas.svg);
+  background-size: 19px 35px;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 10px;
+  left: 22.63433477690091%;
+}
+.order a:last-child {
+  text-indent: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  display: inline-block;
+  width: 30px;
+  height: 40px;
+  background: url(../img/next.svg);
+  background-size: 19px 35px;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 10px;
+  right: 9.053733910760363%;
+}
+:before {
+  white-space: pre;
+}
+@media all and (max-width:1000px) {
+  #list{width:100%;}
+}
+/*# sourceMappingURL=inquirylist.css.map */
