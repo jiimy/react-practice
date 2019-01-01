@@ -13,3 +13,12 @@
 "deploy" : "npm run build&&gh-pages -d build"
 
 5. npm run deploy or yarn run deploy 
+
+
+### firebase로 react배포하기
+
+1. yarn build or npm run build 
+2. firebase deploy
+
+- 자세한 설명은 블로그
+https://blog.roto.codes/deploy-react-app-to-firebase/
