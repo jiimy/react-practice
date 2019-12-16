@@ -1,0 +1,53 @@
+import React, { Component, useState } from 'react';
+import styled, { keyframes } from "styled-components";
+import { ReactComponent as ReactLogo } from "./img/test.svg";
+import Practice from './Practice';
+
+// class Practice0 extends Component {
+const Practice0 = ({background}) => {
+  // useState 는 초기상태. 
+  const [toggleState, setToggleState] = useState('off');
+  const [Value, setValue]= useState(0);
+  console.log('백그라운드다 이말이야',background);
+
+  function toggle() {
+    setToggleState(toggleState === 'off' ? 'on' : 'off');
+    console.log(toggleState);
+  }
+  //
+  const [buttonText, setButtonText] = useState('click');
+  function btnClick(){
+    return setButtonText('ok');
+  }
+
+  const StyledLogo = styled(ReactLogo)`
+  height: 25rem;
+  width: 25rem;
+  display: inline-block;
+  margin: auto;
+  .stroke {
+    stroke : ${props=>props.stroke}
+  }
+`;
+
+  return (
+    <div>
+      <h3>practice0-domcontrol</h3>
+      <button onClick={toggle}>button</button>
+      {
+        toggleState==='off' &&
+        <div>toggl11e</div>
+      }
+      <button onClick={()=> setButtonText('ok')}>useState 버튼 {buttonText}</button>
+      <button onClick={()=>setValue(Value + 1)}>+1</button>
+      <button onClick={()=>setValue(Value - 1)}>-1</button>
+      <div style={{backGround:{background}}}>{Value}</div>
+      <div style={{ display: 'flex', flexWrap: 'wrap' }}>
+        <StyledLogo stroke="yellow"/>
+      </div>
+
+    </div>
+  );
+}
+
+export default Practice0;
